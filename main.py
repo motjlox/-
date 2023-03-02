@@ -1,9 +1,17 @@
-a = int(input("Ввеите число/t"))
-b = int(input("Введите число/t "))
-print((a-b)*(a+b))
-print(a**2-2*a*b+b**2)
-print(a**2+2*a*b+b**2)
-print(a**2-3*a**2*b-3*a*b**2-b*3**2)
-print(a**3+3*a**2*b+3*a*b**2+b**3)
-print((a+b)*(a**2-a*b+b**2))
-print((a-b)*(a**2+a*b+b**2))
+#n = int(ввод("Введите n: "))
+#sum = q = int(ввод("Введите q: "))
+#d = int(ввод("Введите d: "))
+#в то время как n-1:
+    #сумма += d
+    #n -= 1
+
+#print(sum)
+
+b = int(input("Введите число\t"))
+q = int(input("Введите число\t "))
+n = int(input("Введите число\t" ))
+if (q>1):
+    S_n = (b *(q ** n))/(q-1)
+else:
+    S_n = (b *(q ** n))/(1-q)
+print("Сумма первых n членов\t", S_n)
